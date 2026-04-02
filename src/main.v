@@ -1,10 +1,13 @@
-module main(
+module main
+# (
+    parameter FREQ = 50000000
+)
+(
     output reg [7:0] led,
     input clk,
     input rst
 );
     reg [31:0] cnt;
-    parameter FREQ = 50000000;
     parameter PERIOD = FREQ / 2 - 1;
     reg [2:0] state;
 
