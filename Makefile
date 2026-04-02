@@ -1,3 +1,4 @@
+MAIN_TOP=main
 TEST_BENCH=main_tb
 
 build:
