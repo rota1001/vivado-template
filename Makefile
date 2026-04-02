@@ -1,4 +1,5 @@
 build:
+	mkdir -p build
 	vivado -mode batch -source scripts/build.tcl -nolog -nojournal
 
 flash:
