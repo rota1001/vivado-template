@@ -14,3 +14,8 @@ Flash:
 ```
 make flash
 ```
+Simulate:
+```
+make sim
+```
+And you can see the wave.vcd in the build/ directory.
